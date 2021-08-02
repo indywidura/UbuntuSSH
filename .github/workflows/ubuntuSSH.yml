@@ -6,8 +6,8 @@ defaults:
     shell: bash
 jobs:
   build:
-    runs-on: ubuntu-20.04
-    steps:
+    runs-on: ubuntu-latest
+    steps: 
     - uses: fastai/workflows/ssh@master
       with:
         ssh_key: ${{ secrets.SSH_KEY }}
