@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo su
 git clone --recurse-submodules https://github.com/erkanergen7/ErfanGSIs-VelanGSIs ErfanGSIs
 chmod -R 777 ErfanGSIs
 cd ErfanGSIs
